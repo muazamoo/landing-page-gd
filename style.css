@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+     background-color: dimgray;   
+    }
+.logo{
+    width: 100px;
+    padding-left: 0%;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li a{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.btn{
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    background-color: coral;
+}
+.text{
+    box-sizing: border-box;
+    width: 20rem;
+}
